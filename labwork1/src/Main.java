@@ -27,10 +27,10 @@ public class Main {
                 denominator = (i - C);
                 for (double j = b; j <= (double) m; ++j) {
                     numerator = (i * j);
-                        S += numerator / denominator;
-                    }
+                    S += numerator / denominator;
                 }
-            System.out.println("S = " + S);
             }
+            System.out.println("S = " + S);
+        }
     }
 }
