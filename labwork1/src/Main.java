@@ -1,6 +1,14 @@
 public class Main {
 
     public static void main(String[] args) {
+        /*
+        0510
+        C2 = 0 -> +
+        C3 = 0
+        C5 = 0 -> *
+        C7 = 6 -> double
+        */
+
         double S = 0.0;
         double a = 3.2;
         double b = 3.5;
