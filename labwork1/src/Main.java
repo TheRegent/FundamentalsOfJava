@@ -11,21 +11,20 @@ public class Main {
 
         double S = 0.0;
         double a = 3.2;
-        double b = 3.5;
+        double b = -3.5;
         double denominator;
         double numerator;
         int n = 8;
-        int m = 8;
-        final int C= 0;
+        int m = -2;
+        final int C = 0;
 
 
-        if ((a <= C && n >= C)||(b <= 0 && m >= 0)) {
+        if (a <= C && n >= C) {
             System.out.print("Error! Isn't divisible by 0.\n");
-        }
-        else {
-            for (double i = a; i <= (double) n; ++i) {
+        } else {
+            for (double i = a; i <= n; ++i) {
                 denominator = (i - C);
-                for (double j = b; j <= (double) m; ++j) {
+                for (double j = b; j <= m; ++j) {
                     numerator = (i * j);
                     S += numerator / denominator;
                 }
